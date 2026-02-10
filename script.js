@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Show share modal after 1 minute
             setTimeout(() => {
                 showShareModal();
-            }, 10000); // 60 seconds = 1 minute
+            }, 60000); // 60 seconds = 1 minute
         }, 1200); // Match slower curtain
     });
 
